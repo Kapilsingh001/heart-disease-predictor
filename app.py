@@ -9,7 +9,7 @@ model = pickle.load(open(model_path, 'rb'))
 
 st.title("💓 Heart Disease Prediction App")
 st.write("Fill the details below to check your risk of heart disease.")
-
+ 
 # ----------- Input fields ------------ #
 
 age = st.number_input("Age", min_value=1, max_value=120, value=30)
